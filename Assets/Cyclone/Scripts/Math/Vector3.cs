@@ -342,6 +342,12 @@ namespace Cyclone.Math
             unit.Normalize();
             return unit;
         }
+        
+        public Vector3 Zero()
+        {
+            Vector3 zero = new Vector3(0, 0, 0);
+            return zero;
+        }
 
         /// <summary>
         /// Clear this vector to (0, 0, 0).

@@ -208,7 +208,7 @@ namespace Cyclone
         /// <summary>
         /// Clear the accumulated force.
         /// </summary>
-        private void ClearAccumulator()
+        public void ClearAccumulator()
         {
             ForceAccum.Clear();
         }
